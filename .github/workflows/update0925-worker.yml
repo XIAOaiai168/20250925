@@ -3,7 +3,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: "0 3 1 * *"  # 每月 1 号凌晨 3 点触发更新
+    - cron: "0 2 1 * *"  # 每月 1 号凌晨 2 点触发更新
   workflow_dispatch:     # 支持手动运行
 
 permissions:
